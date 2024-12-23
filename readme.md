@@ -5,7 +5,8 @@
 ## serve using voila 
 
 ```
-voila \
+$ pip install voila
+$ voila \
 --MappingKernelManager.cull_interval=60 \
 --MappingKernelManager.cull_idle_timeout=120 \
 --no-browser --port=50009 --base_url=/jchart/ \
